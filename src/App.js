@@ -1,4 +1,4 @@
-import logo from './akari_logo.svg';
+import logo from './akari_logo.jpeg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
