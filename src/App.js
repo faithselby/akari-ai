@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import logo from './akari_logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
