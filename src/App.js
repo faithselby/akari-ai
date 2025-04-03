@@ -56,11 +56,11 @@ const App = () => {
           <h1 className="hero-title">akari ai products for 2025+<br />considered and evolved design</h1>
           <div className="logo-bundle">
             {/* Placeholder for logo bundle */}
-            <div className="placeholder-logos">
-              <img src="/mountain.svg"></img>
+            <div height="100px" width="50%" className="placeholder-logos">
+              <img src="/bulbrocket.svg"></img>
               <img src="/ldnbridge.svg"></img>
               <img src="/guysign.svg"></img>
-              <img src="/boomerang.svg"></img>
+              <img src="/planning.svg"></img>
             </div>
           </div>
         </Container>
