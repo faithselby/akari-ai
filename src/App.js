@@ -57,10 +57,7 @@ const App = () => {
           <div className="logo-bundle">
             {/* Placeholder for logo bundle */}
             <div className="placeholder-logos">
-              <div className="logo-item">AI</div>
-              <div className="logo-item">ML</div>
-              <div className="logo-item">NLP</div>
-              <div className="logo-item">CV</div>
+              
             </div>
           </div>
         </Container>
