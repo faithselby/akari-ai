@@ -53,11 +53,14 @@ const App = () => {
       {/* Hero Section */}
       <section className="hero-section">
         <Container>
-          <h1 className="hero-title">akari: ai products for 2025+<br />considered and evolved design</h1>
+          <h1 className="hero-title">akari ai products for 2025+<br />considered and evolved design</h1>
           <div className="logo-bundle">
             {/* Placeholder for logo bundle */}
             <div className="placeholder-logos">
-              
+              <div className="/mountain.svg"></div>
+              <div className="/ldnbridge.svg"></div>
+              <div className="/guysign.svg"></div>
+              <div className="/boomerang.svg"></div>
             </div>
           </div>
         </Container>
