@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+/* Logo Bundle Styles */
+.logo-bundle {
+  width: 100%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  max-width: 600px;
+}
+
+.logo-img {
+  height: 60px;
+  width: auto;
+  opacity: 0.85;
+  transition: all 0.3s ease;
+}
+
+.logo-img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* For mobile responsiveness */
+@media (max-width: 576px) {
+  .logo-row {
+    gap: 1.5rem;
+  }
+  
+  .logo-img {
+    height: 50px;
+  }
+}

@@ -51,20 +51,19 @@ const App = () => {
       </Navbar>
 
       {/* Hero Section */}
-      <section className="hero-section">
-        <Container>
-          <h1 className="hero-title">akari ai products for 2025+<br />considered and evolved design</h1>
-          <div className="logo-bundle">
-            {/* Placeholder for logo bundle */}
-            <div height="100px" width="50%" className="placeholder-logos">
-              <img src="/bulbrocket.svg"></img>
-              <img src="/ldnbridge.svg"></img>
-              <img src="/guysign.svg"></img>
-              <img src="/planning.svg"></img>
-            </div>
-          </div>
-        </Container>
-      </section>
+<section className="hero-section">
+  <Container>
+    <h1 className="hero-title">akari ai products for 2025+<br />considered and evolved design</h1>
+    <div className="logo-bundle">
+      <div className="logo-row">
+        <img src="/bulbrocket.svg" alt="Bulb Rocket Logo" className="logo-img" />
+        <img src="/ldnbridge.svg" alt="London Bridge Logo" className="logo-img" />
+        <img src="/guysign.svg" alt="Guy Sign Logo" className="logo-img" />
+        <img src="/planning.svg" alt="Planning Logo" className="logo-img" />
+      </div>
+    </div>
+  </Container>
+</section>
 
       {/* Feature Cards */}
       <section className="feature-cards">
