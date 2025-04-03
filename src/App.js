@@ -57,10 +57,10 @@ const App = () => {
           <div className="logo-bundle">
             {/* Placeholder for logo bundle */}
             <div className="placeholder-logos">
-              <div className="/mountain.svg"></div>
-              <div className="/ldnbridge.svg"></div>
-              <div className="/guysign.svg"></div>
-              <div className="/boomerang.svg"></div>
+              <img src="/mountain.svg"></img>
+              <img src="/ldnbridge.svg"></img>
+              <img src="/guysign.svg"></img>
+              <img src="/boomerang.svg"></img>
             </div>
           </div>
         </Container>
